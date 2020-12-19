@@ -1,0 +1,130 @@
+ul li {
+  list-style:none;
+}
+
+
+
+/* Nav Style*/
+
+.navbar-toggler.navbar-toggler-item {
+  color:white;
+}
+.navbar-brand {
+  color:white;
+}
+.navbar-brand:hover{
+  color:white;
+}
+
+.nav-item a {
+  color: white!important;
+}
+
+.dropdown-menu {
+  background-color:black;
+  border-radius:0px;
+}
+
+.dropdown-item:hover {
+  color:black!important;
+}
+
+
+
+.navbar-rogue {
+  background-color:black;
+}
+
+
+
+/*body style*/
+
+
+
+/* form btn styles */
+.tbl-ctrl-prod {
+  width:125px;
+  min-width:125px;
+}
+
+.tbl-ctrl-prod a {
+  width:100%;
+  display:block;
+}
+
+.tbl-ctrl {
+  width:125px;
+  min-width:125px;
+  margin-left:1px;
+}
+
+.tbl-ctrl button {
+  width:100%;
+  display:block;
+}
+
+
+.tbl-ctrl a {
+  height:33px;
+  width:33px;
+  margin:1px;
+}
+
+
+.brnd-tbl-ctrl {
+  width:85px;
+  min-width:85px;
+  margin-left:1px;
+}
+
+.brnd-tbl-ctrl button {
+  width:100%;
+  display:block;
+}
+
+.brnd-tbl-ctrl a {
+  height:33px;
+  width:33px;
+  margin:1px;
+}
+
+
+
+/* form error styles */
+.invalid {
+  border:crimson 1px solid;
+  border-radius:5px;
+}
+
+.error-box {
+  padding:5px;
+  border:crimson 1px solid;
+  border-radius:5px;
+}
+
+.error-box li {
+  list-style:none;
+  padding:3px;
+  color:crimson;
+}
+
+.frames {
+  background-color:limegreen
+}
+
+@media (min-width: 768px) {
+    .rogue-card {
+        width: 33.33%;
+
+    }
+}
+@media (min-width: 992px) {
+    .rogue-card {
+        width: 25%;
+    }
+}
+@media (min-width: 1200px) {
+    .rogue-card {
+        width: 20%;
+    }
+}

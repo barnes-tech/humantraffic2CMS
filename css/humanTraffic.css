@@ -1,0 +1,188 @@
+@font-face {
+  font-family:transportHeavy;
+  src:url('../fonts/transporth.ttf');
+}
+
+body {
+  height:100vh;
+  padding:2.5%;
+}
+
+#trafficSign {
+  background-color:rgb(255,204,0);
+  padding:45px;
+  width:768px;
+  border:10px solid rgba(1,1,1,1) ;
+  border-radius:20px;
+  box-shadow:-1px -1px 1px #fff, 1px 1px 1px #000;
+}
+
+#trafficHead {
+  font-family:transportHeavy;
+  font-size:5.5rem;
+  text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+	color: rgba(1,1,1,1);
+  letter-spacing:-3px;
+}
+
+#trafficHead:hover {
+  text-decoration:none;
+}
+
+.signDivideX {
+ margin:20px 0px 20px 0px;
+ width:656px;
+ height:20px;
+ background-color:rgba(1,1,1,1);
+}
+
+.sqrd {
+  position:relative;
+  bottom:50px;
+  font-size: 3.3rem;
+}
+
+.signLink {
+  font-family:transportHeavy;
+  height:100px;
+  width:200px;
+  font-size:2rem;
+  text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+  color: rgba(1,1,1,1);
+}
+
+.signLink:hover {
+  text-decoration:none;
+  font-size:2rem;
+  color:rgba(1,1,1,1);
+  line-height: -3px;
+}
+
+
+
+#contentFrame {
+  height:35vh;
+  margin:3px;
+  display:hidden;
+}
+
+#content {
+  overflow:auto;
+}
+
+#graphicsFrame {
+  position:relative;
+  top:30%;
+  overflow:none;
+}
+
+.graphic {
+  margin:auto;
+}
+
+.arrowLeft {
+  margin-right:0px;
+  position:relative;
+  right:-1px;
+  bottom:30px;
+  height:55px;
+  width:75px;
+  background-color:rgba(1,1,1,1);
+  transform:skewY(-40deg);
+}
+
+.arrowRight {
+  margin-left:0px;
+  position:relative;
+  bottom:30px;
+  height:55px;
+  width:75px;
+  background-color:rgba(1,1,1,1);
+  transform:skewY(40deg);
+}
+
+.leftPosition {
+  position:relative;
+  left:16px;
+}
+
+.arrowBody {
+  position:relative;
+  top:-65px;
+  bottom:125px;
+  width:180px;
+  height:225px;
+}
+
+.arrowLine {
+  position:inherit;
+  margin-left:70px;
+  margin-right:70px;
+  height:200px;
+  background-color:rgba(1,1,1,1);
+}
+
+.roadEndLine {
+  position:inherit;
+  margin-left:78px;
+  margin-right:82px;
+  height:125px;
+  top:120px;
+  background-color:rgba(1,1,1,1);
+}
+
+.roadEnd {
+  position:relative;
+  border:solid 15px rgba(1,1,1,1);
+  border-radius:3px;
+  background-color:#cc0000;
+  height:66px;
+  width:170px;
+  z-index:1000;
+}
+#getInvolved {
+  font-family:transportHeavy;
+  display:none;
+}
+#returningCast {
+  font-family:transportHeavy;
+  display:none;
+}
+
+/*record*/
+
+.record-container {
+  display: inline-block;
+  overflow: hidden;
+  width: 100%; height: 300px;
+  border-radius: 10px;
+  background: rgb(255,204,0);
+}
+.record {
+  position: relative;
+  margin: 25px auto;
+  width: 262px; height: 262px;
+  border-radius: 50%;
+  background:
+    linear-gradient(30deg, transparent 40%, rgba(1, 1, 1, .85) 40%) no-repeat 100% 0,
+    linear-gradient(60deg, rgba(1, 1, 1, .85) 60%, transparent 60%) no-repeat 0 100%,
+    repeating-radial-gradient(#2a2928, #2a2928 4px, #ada9a0 5px, #2a2928 6px);
+  background-size: 50% 100%, 100% 50%, 100% 100%;
+}
+.record:after {
+  position: absolute;
+  top: 50%; left: 50%;
+  margin: -35px;
+  border: solid 1px #d9a388;
+  width: 68px; height: 68px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px #da5b33,
+    inset 0 0 0 27px #da5b33;
+  background: #b5ac9a;
+  content: '';
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#contentFrame::-webkit-scrollbar {
+  display: none;
+}

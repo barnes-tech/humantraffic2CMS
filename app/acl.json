@@ -1,0 +1,33 @@
+{
+  "Guest" : {
+    "denied" : {
+    "Tools": ["*"]
+    },
+    "Store" : ["*"],
+    "Projects" : ["*"],
+    "Home" : ["*"],
+    "Register" : ["login","register"],
+    "Restricted" : ["*"]
+  },
+
+  "LoggedIn" : {
+    "denied" : {
+      "Register" : ["login"]
+    },
+    "Home" : ["*"],
+    "Register" : ["logout", "register"],
+    "Products" : ["*"],
+    "Restricted" :["*"],
+    "Tools" : ["*"]
+  },
+  "SuperAdmin" : {
+    "denied" : {
+      "Register" : ["login"]
+    },
+    "Store" : ["*"],
+    "Admindashboard" : ["*"],
+    "Adminproducts" : ["*"],
+    "Adminbrands" : ["*"],
+    "Adminprojects" : ["*"]
+  }
+}

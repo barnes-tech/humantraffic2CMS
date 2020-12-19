@@ -1,0 +1,8 @@
+{
+  "Login" : "register/login",
+  "%USERNAME%" : {
+    "Admin" : "admindashboard/index",
+    "Register" : "register/register",
+    "Logout" : "register/logout"
+  }
+}
