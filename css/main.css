@@ -1,11 +1,7 @@
 ul li {
   list-style:none;
 }
-
-
-
 /* Nav Style*/
-
 .navbar-toggler.navbar-toggler-item {
   color:white;
 }
@@ -15,21 +11,16 @@ ul li {
 .navbar-brand:hover{
   color:white;
 }
-
 .nav-item a {
   color: white!important;
 }
-
 .dropdown-menu {
   background-color:black;
   border-radius:0px;
 }
-
 .dropdown-item:hover {
   color:black!important;
 }
-
-
 
 .navbar-rogue {
   background-color:black;
@@ -106,25 +97,4 @@ ul li {
   list-style:none;
   padding:3px;
   color:crimson;
-}
-
-.frames {
-  background-color:limegreen
-}
-
-@media (min-width: 768px) {
-    .rogue-card {
-        width: 33.33%;
-
-    }
-}
-@media (min-width: 992px) {
-    .rogue-card {
-        width: 25%;
-    }
-}
-@media (min-width: 1200px) {
-    .rogue-card {
-        width: 20%;
-    }
 }

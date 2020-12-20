@@ -9,7 +9,7 @@
   $user_menu = Router::get_menu('user_menu');
 ?>
 <nav class="navbar navbar-expand-lg navbar-dark navbar-rogue">
-  <a class="navbar-brand" href="#">Human Traffic²</a>
+  <a class="navbar-brand" href="<?=SROOT?>">Human Traffic²</a>
   <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main_menu" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

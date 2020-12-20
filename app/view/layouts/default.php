@@ -17,7 +17,7 @@
   <body>
     <?php include 'main_menu.php' ?>
     <div class="container-fluid frame">
-        <?= Session::session_msgs()?>
+
     <?=$this->content('body')?>
     </div>
     <script src="<?=SROOT?>js/jQuery-3.3.1.min.js"></script>

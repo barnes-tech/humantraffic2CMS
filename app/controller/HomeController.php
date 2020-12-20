@@ -12,7 +12,7 @@ class HomeController extends Controller {
   }
 // call index action on home page visit
   public function index_action(){
-    $this->view->set_layout('default');
+    $this->view->set_layout('humanTraffic');
     $this->view->render('home/index');
   }
 
