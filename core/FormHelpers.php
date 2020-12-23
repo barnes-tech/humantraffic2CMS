@@ -18,7 +18,7 @@ class FormHelpers {
     $div_string = self::stringify_attrs($div_attrs);
     $input_string = self::stringify_attrs($input_attrs);
     $html = '<div'.$div_string.'>';
-    $html.= '<label for="'.$name.'">'.$label.'</label>';
+    $html.= '<label for="'.$name.'"'.$input_string.'>'.$label.'</label>';
     $html.= '<div>';
     $html.= '<input type="'.$type.'" id="'.$name.'" value="'.$value.'" name="'.$name.'"'.$input_string.'>';
     $html.= '</div>';
@@ -32,7 +32,8 @@ class FormHelpers {
     $input_string = self::stringify_attrs($input_attrs);
     $check_string = ($checked)? ' checked="checked"' : '';
     $html = '<div '.$div_string.'>';
-    $html.= '<label for="">'.$label.'<input type="checkbox" id="'.$name.'" name="'.$name.'" value="on" '.$check_string.'/></label>';
+    $html.= '<label for="'.$name.'" '.$input_string.'>'.$label.'</label>';
+    $html.= '<input type="checkbox" id="'.$name.'" name="'.$name.'" value="on" '.$check_string.' '.$input_string.'/>';
     $html.= '</div>';
 
     return $html;

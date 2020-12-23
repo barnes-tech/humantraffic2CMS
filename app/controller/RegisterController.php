@@ -8,7 +8,7 @@ use App\Model\{Users,Login};
 class RegisterController extends Controller {
 
   public function on_construct() {
-    $this->view->set_layout('default');
+    $this->view->set_layout('humanTrafficLogin');
 
   }
 

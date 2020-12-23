@@ -14,7 +14,7 @@
      <section class="row justify-content-center">
        <nav class id="trafficSign">
          <div id="signContent">
-           <h1 class="text-center"><a id="trafficHead" href="home">Human&nbsp;&nbsp;&nbsp;Traffic<span class="sqrd">2</span></a></h1>
+           <h1 class="text-center"><a id="trafficHead" href="home">Site Manager</a></h1>
            <div class="signDivideX"></div>
            <section id="contentFrame">
             <!--start of graphics frame-->
@@ -24,16 +24,12 @@
           <!--Get Involved section-->
 
           <!--Returning castsection-->
-          <div id="returningCast">
-            <h1 class="text-center">Meet the Humans</h1>
-            <p class="m-1">"  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-          </div>
 
 
         </section>
         <div class="signDivideX"></div>
           <section class="row justify-content-around linkBox text-center">
-            <a href="#" class="signLink" onclick="getInvolved()">Get<br>Involved</a>
+            <a href="<?=SROOT?>home" class="signLink" onclick="getInvolved()">Back to Site</a>
             <a href="#" class="signLink" onclick="showCast()">The<br>Humans</a>
             <a href="#" class="signLink">Indie<br>GoGo</a>
           </section>
